@@ -28,5 +28,5 @@ function fareTripler(integer) {
 }
 
 function selectDifferentDrivers(drivers, someFunction) {
-  return ['Sally', 'Bob', 'Freddy', 'Claudia'].someFunction()
+  return someFunction(drivers)
 }
