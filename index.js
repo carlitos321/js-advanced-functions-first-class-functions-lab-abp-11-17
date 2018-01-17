@@ -19,12 +19,16 @@ function createFareMultiplier(integer) {
   }
 }
 
-function fareDoubler(integer) {
-  return integer * 2;
-}
+// function fareDoubler(integer) {
+//   return integer * 2;
+// }
 
-function fareTripler(integer) {
-  return integer * 3;
+// function fareTripler(integer) {
+//   return integer * 3;
+// }
+
+const fareDoubler = function() {
+  return createFareMultiplier(fareDoubler)
 }
 
 function selectDifferentDrivers(drivers, someFunction) {
